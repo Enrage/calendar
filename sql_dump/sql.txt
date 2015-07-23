@@ -1,0 +1,15 @@
+CREATE TABLE `news` (
+  `id` int(11) NOT NULL auto_increment,
+  `title` varchar(255) NOT NULL default '',
+  `date` datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=cp1251 AUTO_INCREMENT=3 ;
+
+-- 
+-- Дамп данных таблицы `news`
+-- 
+
+INSERT INTO `news` VALUES (1, 'Событие(14 сентября 2009)', '2009-09-14 00:00:00');
+INSERT INTO `news` VALUES (2, 'Событие(12 сентября 2009)', '2009-09-12 00:00:00');
+INSERT INTO `news` VALUES (2, 'Событие(22 августа 2009)', '2009-08-22 00:00:00');
+        
